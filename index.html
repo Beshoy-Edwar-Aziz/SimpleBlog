@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="blog">
+        <div class="container shadow-lg p-3">
+            <h1 class="text-center my-3">Add Blog</h1>
+            <input type="text" placeholder="Blog Title" id="blogTitle" class="form-control">
+            <textarea placeholder="Blog Content" id="blogContent" class="form-control my-3"></textarea>
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="file" placeholder="Blog Image" id="blogImg" accept="image/*" class="form-control">
+                </div>
+                <div class="col-md-4">
+            <img id="previewImage" src="#" alt="previewImage" class="w-100">
+        </div>
+        </div>
+            <button type="button" class="btn btn-outline-dark mt-3" id="blogBtn">Add Blog</button>
+        </div>
+    </section>
+    <section class="blogDisplay" >
+        <div class="container p-4 shadow">
+        <div class="row" id="display1">
+            
+    </div>
+</div>
+    </section>
+    <div class="loader"></div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/focus.js"></script>
+</body>
+</html>
