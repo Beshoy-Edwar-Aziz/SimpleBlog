@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
 </head>
 <body>
     <section class="blog">
@@ -23,16 +24,25 @@
         </div>
         </div>
             <button type="button" class="btn btn-outline-dark mt-3" id="blogBtn">Add Blog</button>
+            <button type="button" class="btn btn-outline-dark mt-3" id="updateBlog">Update Blog</button>
         </div>
     </section>
     <section class="blogDisplay" >
         <div class="container p-4 shadow">
-        <div class="row" id="display1">
+        <h3 class="mb-3">Your Blogs</h3>
+        <div class="row gy-4" id="display1">
             
     </div>
 </div>
     </section>
-    <div class="loader"></div>
+    <div class="loader">
+        <p>Welcome Blogger</p>
+    </div>
+    <div id="confirmMsg" class="bg-body-secondary p-3 rounded shadow">
+        <i class="fa-solid fa-check-circle fs-2 text-success"></i>
+        <p class="fw-bold fs-5">Blog Posted Successfully</p>
+    </div>
+    
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/focus.js"></script>
 </body>
